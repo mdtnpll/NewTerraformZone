@@ -14,7 +14,7 @@ provider "aws" {
 
 # Create a VPC
 resource "aws_s3_bucket" "ravi20071969" {
-  bucket = "my-tf-test-bucket"
+  bucket = "my-tf-test-bucket-ravi20071969"
 
   tags = {
     Name        = "My bucket"
